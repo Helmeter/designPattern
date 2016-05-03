@@ -9,5 +9,5 @@ package adapter;
  * 定义客户端请求的方法
  */
 public interface Target {
-    public void request();
+    void request();
 }
