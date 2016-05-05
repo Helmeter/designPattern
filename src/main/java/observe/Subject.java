@@ -14,7 +14,13 @@ public class Subject {
     }
 
     public void detach(Observer observer) {
-        observers.remove(observer);
+
+        int i = observers.indexOf(observer);
+        if (i >= 0) {
+
+            observers.remove(i);
+        }
+
     }
 
     protected void notifyObservers() {

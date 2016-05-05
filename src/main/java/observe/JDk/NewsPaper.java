@@ -16,6 +16,7 @@ public class NewsPaper extends Observable {
     public void setContent(String content) {
         this.content = content;
         this.setChanged();
+        //this.notifyObservers();这个也可以
         this.notifyObservers(this.content);
     }
 }
