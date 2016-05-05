@@ -2,7 +2,7 @@ package abstractFactory;
 
 public interface AbstractFactory {
 
-    public AbstractProductA createProductA();
+     AbstractProductA createProductA();
 
-    public AbstractProductB createProductB();
+     AbstractProductB createProductB();
 }
